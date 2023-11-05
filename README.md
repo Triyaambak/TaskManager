@@ -9,6 +9,7 @@ This is a simple Task Manager Application
 
 ----How To Run----
 ->Open the folder in which the project is saved
+->In terminal type "npm i" to install all dependencies
 ->In terminal type "npm start"
 ->Navigate to browser and "localhost:3000"
 ->Enjoy :)
