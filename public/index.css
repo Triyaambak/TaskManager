@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata',monospace;
+}
+
+.main{
+    margin: auto;
+    width: max-content;
+    background-color: white;
+    margin-top: 5%;
+    padding:5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.task{
+    display: flex;
+}
+
+.input-task ,.submit{
+    border: 0;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.input-task{
+    margin-right: 0;
+    width: 35rem;
+    background-color: rgb(201, 201, 201);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding-left: 1.5rem;
+}
+
+.input-task::placeholder{
+    color: rgb(66, 66, 66);
+}
+
+.input-task:focus{
+    outline: none;
+}
+
+.submit{
+    margin-left: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-right: 1.5rem;
+}
+
+.submit:hover{
+    cursor: pointer;
+
+}
+
+.submit:active{
+    background-color:rgb(201,201,201);
+    color:white;
+}
+
+.text-failure, .text-success{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.text-success{
+    color: green; 
+    margin-bottom: 1rem;
+}
+
+.text-failure{
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.single-task{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.single-task-completed{
+    text-decoration: line-through;
+}
+
+.single-task:hover{
+    cursor: pointer;
+}
